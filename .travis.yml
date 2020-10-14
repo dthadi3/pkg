@@ -3,6 +3,8 @@ language: go
 go:
  - 1.5.4
  - 1.6.2
-
+arch:
+ - AMD64
+ - ppc64le
 script:
  - ./test.sh
